@@ -1,0 +1,55 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "s3:GetObject",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "ec2:Describe*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "rds:Describe*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "sns:Get*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "sqs:Get*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "dynamodb:GetItem",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "lambda:Get*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "cloudwatch:Get*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "autoscaling:Describe*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "elasticloadbalancing:Describe*",
+            "Resource": "*"
+        }
+    ]
+}
